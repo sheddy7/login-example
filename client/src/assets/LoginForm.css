@@ -1,0 +1,21 @@
+form[name="loginForm"] {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+input[type="submit"] {
+  display:none;
+}
+
+.message {
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.error {
+  color: #FF9494;
+}
