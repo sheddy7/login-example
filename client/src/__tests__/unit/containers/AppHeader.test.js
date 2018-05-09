@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import configureMockStore from 'redux-mock-store';
 
-import AppHeader from '../../containers/AppHeader';
+import AppHeader from '../../../containers/AppHeader';
 
 describe('Connected AppHeader container', () => {
   const initalState = {

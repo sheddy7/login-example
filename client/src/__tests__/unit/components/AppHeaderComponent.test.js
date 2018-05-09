@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
 
-import AppHeaderComponent from '../../components/AppHeaderComponent';
+import AppHeaderComponent from '../../../components/AppHeaderComponent';
 
 describe('<AppHeaderComponent />', () => {
   it('renders without crashing', () => {

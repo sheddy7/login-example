@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
 
-import LoginFormComponent from '../../components/LoginFormComponent';
+import LoginFormComponent from '../../../components/LoginFormComponent';
 
 describe('<LoginFormComponent />', () => {
   it('renders without crashing', () => {

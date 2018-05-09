@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import configureMockStore from 'redux-mock-store';
 
-import LoginForm from '../../containers/LoginForm';
+import LoginForm from '../../../containers/LoginForm';
 
 describe('Connected Login container', () => {
   const initalState = {

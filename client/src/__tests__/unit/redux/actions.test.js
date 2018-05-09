@@ -9,7 +9,7 @@ import {
   setLogout,
   logout,
   login
-} from '../../redux/actions';
+} from '../../../redux/actions';
 
 import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';

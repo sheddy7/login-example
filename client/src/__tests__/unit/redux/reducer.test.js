@@ -1,5 +1,5 @@
-import { loginStatus, initalState } from '../../redux/reducer';
-import { SET_LOGIN_PENDING, SET_LOGIN_SUCCESS, SET_LOGIN_ERROR, SET_LOGOUT } from '../../redux/actions';
+import { loginStatus, initalState } from '../../../redux/reducer';
+import { SET_LOGIN_PENDING, SET_LOGIN_SUCCESS, SET_LOGIN_ERROR, SET_LOGOUT } from '../../../redux/actions';
 
 describe('login reducer', () => {
 

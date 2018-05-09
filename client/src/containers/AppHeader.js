@@ -31,10 +31,12 @@ class AppHeader extends Component {
   };
 };
 
-const mapStateToProps = state => ({
-  authenticated: state.loginStatus.authenticated
-});
+const mapStateToProps = state => {
 
+  return {
+    authenticated: state.loginStatus.authenticated
+  };
+}
 const mapDispatchToProps = dispatch => bindActionCreators({ logout }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(AppHeader);

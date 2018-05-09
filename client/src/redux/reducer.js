@@ -2,14 +2,14 @@ import { combineReducers } from 'redux';
 
 import { SET_LOGIN_PENDING, SET_LOGIN_SUCCESS, SET_LOGIN_ERROR, SET_LOGOUT } from './actions';
 
-export const initalState = {
+export const initialState = {
   requestPending: false,
   text: null,
   error: false,
   authenticated: false
 };
 
-export function loginStatus(state, action) {
+export const loginStatus = (state = initialState, action) => {
   switch(action.type) {
     case SET_LOGIN_PENDING:
       return {
@@ -46,7 +46,7 @@ export function loginStatus(state, action) {
       };
 
     default:
-      return initalState;
+      return state;
   }
 };
 
